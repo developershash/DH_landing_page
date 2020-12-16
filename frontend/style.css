@@ -1,0 +1,16 @@
+.description-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#description .name {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#description .bio {
+    font-family: "Lora, sans-serif";
+    font-size: 21px;
+}

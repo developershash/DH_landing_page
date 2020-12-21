@@ -1,3 +1,7 @@
+body {
+    font-family: 'sulphur_pointregular';
+}
+
 .description-wrapper {
     display: flex;
     flex-direction: column;
@@ -6,11 +10,55 @@
 }
 
 #description .name {
-    font-size: 16px;
+    font-family: 'sulphur_pointbold';
+    font-size: 18px;
     text-transform: uppercase;
+    letter-spacing: 0.8px;
 }
 
 #description .bio {
-    font-family: "Lora, sans-serif";
     font-size: 21px;
 }
+
+.join-btn {
+    font-family: 'sulphur_pointbold';
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255,0) 30%, rgba(255, 255, 255,1) 0%)
+}
+
+.join-btn .wa {
+    font-size: 30px;
+    color: #25D366;
+}
+
+.btn-rounded {
+    border-radius: 40px;
+}
+
+.btn-yellow {
+    background-color: #ffd142;
+}
+
+.social-icon-border {
+    border: 2px solid rgba(255, 209, 66, 0.75);
+    border-radius: 25px;
+}
+
+.horizontal-line-with-text {
+    width: 100%; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ .horizontal-line-with-text span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+ .social-icon-wrapper img {
+     width: 18px;
+ }
+
+ .social-icon-wrapper span {
+     cursor: pointer;
+ }

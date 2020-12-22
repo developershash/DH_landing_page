@@ -62,3 +62,40 @@ body {
  .social-icon-wrapper span {
      cursor: pointer;
  }
+
+ .name-underline {
+     border-bottom: 1px solid #00599d;;
+ }
+
+ .text-yellow {
+     color: #ffd142
+ }
+
+ .text-blue {
+    color: #00599d
+}
+
+ .blue-bottom-border {
+     border-bottom-color: #00599d;
+ }
+
+ .anchor-yellow-border {
+     text-decoration: none;
+     border-bottom: 3px solid #ffd142;
+}
+
+.footer {
+    margin-top: 8%;
+}
+
+/* Credit-html */
+.credit-title {
+    margin-bottom: 5px;
+}
+
+.credit-title span {
+    text-transform: uppercase;
+    background-color: #00599d;
+    color: white;
+    clip-path: polygon(5% 0%, 100% 0, 95% 100%, 0% 100%)
+}
